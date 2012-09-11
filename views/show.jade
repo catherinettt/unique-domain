@@ -1,5 +1,8 @@
 extends layout
 
 block content
-	for item in result
-		p #{item}
+	ul#result_list
+		for item in result
+			li.item #{item}
+		
+	a.button(href="/") back

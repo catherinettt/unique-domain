@@ -13,8 +13,9 @@ html
 		link(rel="apple-touch-icon-precomposed", href="")		
 		meta(name="viewport", content="width=device-width")
 		
+		link(rel="stylesheet", href="/foundation3/stylesheets/foundation.css")
 		link(rel='stylesheet', href='/stylesheets/style.css')
-		
+
 		link(href='http://fonts.googleapis.com/css?family=Special+Elite', rel='stylesheet', type='text/css')
 		link(href='http://fonts.googleapis.com/css?family=Exo:200,300,400,800', rel='stylesheet', type='text/css')
 
@@ -28,7 +29,16 @@ html
 		script(src="/javascripts/app.js")
 		
 	body
+		
 		div#main
-			h1.title Domain Your Name!
+			div.row
+				div.twelve.columns
+					h1.title I am bored of .com!
+			
 			block content
+			
+		div.row
+			div.five.columns.centered
+				hr
+				p Catherine Tan 2012
 		

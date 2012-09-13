@@ -1,6 +1,13 @@
 extends layout
 
 block content
-	form(method="post", action="/", id="form")
-		input.input_name(type="text", name="input_name")
-		input.button(type="submit", value="check")
+	p.subline Explore the alternatives!
+	div.row
+		
+		form(method="post", action="/", id="form")
+			div.five.columns.centered
+				div.row
+					div.eight.mobile-three.columns
+						input.input_name(type="text", name="input_name", placeholder="Enter name without spaces")
+					div.four.mobile-one.columns
+						input.button(type="submit", value="check")

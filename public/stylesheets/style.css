@@ -2,11 +2,11 @@ body{
 	background-image: url("/images/irongrip.png");
 	color: white;
 	font-family: 'Exo', sans-serif;
+	text-align: center;
 }
 
 #main{
-	margin: 10px auto;
-	width: 800px;
+
 	text-align: center;
 	margin-top: 100px;
 }
@@ -14,15 +14,14 @@ body{
 .title{
 	font-family: 'Exo', sans-serif;
 	color: white;
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: 600;
 }
 
-
-#form .button{
-	margin-left: 16px;
-	
+input{
+	display: inline !important;
 }
+
 .button{
 	font-family: 'Exo', sans-serif;
 	background: rgba(199,255,234,0.8);
@@ -37,16 +36,17 @@ body{
 	text-decoration: none;
 }
 
+.subline{
+	font-size: 20px;
+	font-weight: 200;
+	
+}
 .button:hover{
 	background:rgba(199,255,234,1) 
 }
 
 .input_name{
 	font-family: 'Exo', sans-serif;
-	line-height: 1;
-	font-size: 20px;
-	border-radius: 3px;
-	width: 320px;
 }
 
 ul#result_list{
@@ -60,10 +60,10 @@ ul#result_list li{
 	width: 150px;
 	margin: 10px auto;
 	padding: 10px;
-	border-bottom: 1px solid rgba(199,255,234,1);
+	font-size: 24px;
 	
 }
 
-ul#result_list li:hover{
-	background: rgba(255,255,255,0.65)
+ul#result_list li span{
+	border-bottom: 1px solid rgba(199,255,234,1);
 }

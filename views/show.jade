@@ -3,6 +3,7 @@ extends layout
 block content
 	ul#result_list
 		for item in result
-			li.item #{item}
+			li.item 
+				span #{item}
 		
 	a.button(href="/") back
